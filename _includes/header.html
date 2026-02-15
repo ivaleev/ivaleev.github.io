@@ -10,9 +10,16 @@
     <nav class="site-nav">
       <div class="trigger">
         {% if page.lang == "en" %}
-        <a href="{{ site.baseurl }}/ru/">RU</a>
+        <a href="{{ site.baseurl }}/ru/">RU</a>&nbsp;|
+        <a href="{{ site.baseurl }}/tt/">TT</a>
         {% else %}
-        <a href="{{ site.baseurl }}/">EN</a>
+          {% if page.lang == "ru" %}
+          <a href="{{ site.baseurl }}/">EN</a>&nbsp;|
+          <a href="{{ site.baseurl }}/tt/">TT</a>
+          {% else %}
+          <a href="{{ site.baseurl }}/">EN</a>&nbsp;|
+          <a href="{{ site.baseurl }}/ru/">RU</a>
+          {% endif %}
         {% endif %}
       </div>
     </nav>

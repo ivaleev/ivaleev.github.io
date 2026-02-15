@@ -60,6 +60,9 @@ collections:
   ru:
     output: true
     permalink: /ru/:path/
+  tt:
+    output: true
+    permalink: /tt/:path/
 
 defaults:
 - scope:
@@ -70,3 +73,7 @@ defaults:
     path: "_ru"
   values:
     lang: "ru"
+- scope:
+    path: "_tt"
+  values:
+    lang: "tt"

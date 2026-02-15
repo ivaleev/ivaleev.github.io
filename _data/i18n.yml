@@ -1,9 +1,12 @@
 read_more:
-  ru: "Читать далее"
   en: "Read more"
+  ru: "Читать далее"
+  tt: "Киләсе бит"
 content:
-  ru: "Содержание"
   en: "Content"
+  ru: "Содержание"
+  tt: "Эчтәлек"
 topic_end:
-  ru: "Последняя"
   en: "End"
+  ru: "Последняя"
+  tt: "Соңгы бит"
